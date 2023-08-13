@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* FONTS */
+    --fs-sm: 0.75rem;
+    --fs-rg: 1rem;
+    --fs-md: 1.25rem;
+    --fs-lg: 1.5rem;
+    --fs-xlg: 2rem;
+
+    /* COLOURS */
+    --bkg: hsl(216, 28%, 7%);
+    --text: hsl(210, 32%, 93%);
+    --muted: hsl(216, 8%, 53%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--fs-rg);
+    color: var(--text);
+    background-color: var(--bkg);
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+    color: var(--text);
+}
+
+h2.emoji-man-technologist::after {
+    content: "👨‍💻";
+    margin-left: 0.2em;
+}
+
+.socials {
+    font-size: var(--fs-lg);
+    color: var(--text);
+}
+
+.legal{
+    color: var(--muted);
+}
