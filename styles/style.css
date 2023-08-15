@@ -31,6 +31,11 @@ a:visited {
     color: var(--text);
 }
 
+nav a, 
+nav a:visited {
+    color: var(--muted);
+}
+
 h2.emoji-man-technologist::after {
     content: "👨‍💻";
     margin-left: 0.2em;
@@ -41,6 +46,8 @@ h2.emoji-man-technologist::after {
     color: var(--text);
 }
 
-.legal{
+.legal,
+.legal a, 
+.legal a:visited {
     color: var(--muted);
 }
