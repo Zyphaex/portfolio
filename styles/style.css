@@ -13,9 +13,11 @@
     --fs-xlg: 2rem;
 
     /* COLOURS */
-    --bkg: hsl(216, 28%, 7%);
     --text: hsl(210, 32%, 93%);
     --muted: hsl(216, 8%, 53%);
+    --muted-dark: hsl(216, 8%, 20%);
+    --muted-darker: hsl(216, 8%, 15%);
+    --bkg: hsl(216, 28%, 7%);
 }
 
 body {
@@ -39,6 +41,38 @@ nav a:visited {
 h2.emoji-man-technologist::after {
     content: "👨‍💻";
     margin-left: 0.2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption, 
+th, 
+td {
+    padding: 0.6em;
+    border: 0.06em solid black;
+}
+
+caption {
+    font-weight: bold;
+    background-color: var(--muted-dark);
+}
+
+thead {
+    background-color: var(--muted-dark);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--muted-darker);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--muted-dark);					
+}
+
+th[scope="row"] {
+    text-align: left;
 }
 
 .socials {
