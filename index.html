@@ -8,13 +8,13 @@
     <meta name="author" content="Sam Hillier">
     <meta property="og:title" content="Sam Hillier | Full Stack Developer"/>
     <meta property="og:description" content="Sam Hillier - Computer Science graduate and Full Stack Developer based in Nottingham."/>
-    <meta property="og:image" content="#"/>
+    <meta property="og:image" content="https://hillier.uk/assets/images/esportsme-logo.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://hillier.uk"/>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg">
-</head> 
+</head>
 <body>
     <nav>
         <a href="#">Projects</a>
@@ -38,46 +38,63 @@
             <p>Computer Science graduate and Full Stack Developer based in Nottingham.</p>
             <p>If you're interested in working with me or have a question, please feel free to get in touch.</p>
         </section>
-        <section aria-labelledby="tbl-caption">
-            <table>
-                <caption id="tbl-caption">PC Specifications</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Component</th>
-                        <th scope="col">Specification</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Mouse</th>
-                        <td>Razer Basilisk V3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Keyboard</th>
-                        <td>Corsair Gaming K100 RGB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Monitor</th>
-                        <td>BenQ MOBIUZ EX2510</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">CPU</th>
-                        <td>Intel Core i9-9900K @ 3.6 GHz</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">GPU</th>
-                        <td>GeForce RTX 2080 SUPER 8GB</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">RAM</th>
-                        <td>Corsair Vengeance LPX 32GB DDR4</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">SSD</th>
-                        <td>Samsung 860 QVO 1TB</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section class="container">
+            <section aria-labelledby="caption">
+                <table>
+                    <caption id="caption">PC Specifications</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Component</th>
+                            <th scope="col">Specification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Mouse</th>
+                            <td>Razer Basilisk V3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Keyboard</th>
+                            <td>Corsair Gaming K100 RGB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Monitor</th>
+                            <td>BenQ MOBIUZ EX2510</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">CPU</th>
+                            <td>Intel Core i9-9900K @ 3.6 GHz</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GPU</th>
+                            <td>GeForce RTX 2080 SUPER 8GB</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">RAM</th>
+                            <td>Corsair Vengeance LPX 32GB DDR4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">SSD</th>
+                            <td>Samsung 860 QVO 1TB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section aria-labelledby="form">
+                <form action="#" method="post">
+                    <fieldset disabled>
+                        <legend id="form">Contact</legend>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@domain.com" required>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message..." required></textarea>
+                        <em style="color: var(--muted);">This form is currently non-functional. Please use an alternative contact method instead, thank you.</em>
+                        <button type="submit">Send Message<i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+                    </fieldset>
+                </form>
+            </section>
         </section>
     </main>
     <footer>

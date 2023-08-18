@@ -22,20 +22,37 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: var(--bkg);
     font-size: var(--fs-rg);
     color: var(--text);
-    background-color: var(--bkg);
 }
 
 a, 
 a:visited {
     text-decoration: none;
-    color: var(--text);
+    color: var(--muted);
 }
 
-nav a, 
-nav a:visited {
-    color: var(--muted);
+a:hover {
+    color: var(--muted-dark);
+}
+
+a:active {
+    color: var(--muted-darker);
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    padding: 0.3em 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
 }
 
 h2.emoji-man-technologist::after {
@@ -48,6 +65,7 @@ ul.languages {
     padding: 0.6em 0;
     flex-wrap: wrap;
     list-style: none;
+    color: var(--muted);
     gap: 2em;
 }
 
@@ -83,13 +101,86 @@ th[scope="row"] {
     text-align: left;
 }
 
+fieldset {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    gap: 10px;
+}
+
+legend {
+    display: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    background-color: var(--muted-dark);
+    font-size: var(--fs-rg);
+    color: var(--text);
+    caret-color: var(--text);
+    border: 1px solid var(--muted-darker);
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    align-self: flex-start;
+    background-color: var(--text);
+    font-size: var(--fs-rg);
+    font-weight: bold;
+    color: var(--muted-dark);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+button:hover {
+    background-color: var(--muted-dark);
+    color: var(--text);
+}
+
+button:active {
+    background-color: var(--muted-darker);
+    transform: scale(0.9);
+    }
+
+i {
+    margin-left: 0.4em;
+}
+
 .socials {
     font-size: var(--fs-lg);
     color: var(--text);
 }
 
-.legal,
-.legal a, 
-.legal a:visited {
+.socials a, 
+.socials a:visited {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.socials a:hover {
+    color: var(--muted);
+}
+
+.socials a:active {
+    color: var(--muted-dark);
+}
+
+.legal {
     color: var(--muted);
 }
