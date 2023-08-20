@@ -135,7 +135,8 @@ textarea {
     resize: vertical;
 }
 
-button {
+button, 
+.download {
     padding: 10px 20px;
     align-self: flex-start;
     background-color: var(--text);
@@ -148,15 +149,17 @@ button {
     transition: all 0.1s ease;
 }
 
-button:hover {
+button:hover, 
+.download:hover {
     background-color: var(--muted-dark);
     color: var(--text);
 }
 
-button:active {
+button:active, 
+.download:active {
     background-color: var(--muted-darker);
     transform: scale(0.9);
-    }
+}
 
 i {
     margin-left: 0.4em;
