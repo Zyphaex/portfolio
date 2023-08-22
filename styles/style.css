@@ -187,3 +187,11 @@ i {
 .legal {
     color: var(--muted);
 }
+
+.download-list {
+    list-style: none;
+}
+
+.download-list li {
+    padding: 1em 0;
+}
