@@ -27,8 +27,10 @@ body {
     color: var(--text);
 }
 
-a, 
-a:visited {
+a,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
     color: var(--muted);
 }
@@ -135,8 +137,8 @@ textarea {
     resize: vertical;
 }
 
-button, 
-.download {
+.button,
+.button:visited {
     padding: 10px 20px;
     align-self: flex-start;
     background-color: var(--text);
@@ -149,14 +151,12 @@ button,
     transition: all 0.1s ease;
 }
 
-button:hover, 
-.download:hover {
+.button:hover {
     background-color: var(--muted-dark);
     color: var(--text);
 }
 
-button:active, 
-.download:active {
+.button:active {
     background-color: var(--muted-darker);
     transform: scale(0.9);
 }
@@ -172,7 +172,6 @@ i {
 
 .socials a, 
 .socials a:visited {
-    text-decoration: none;
     color: var(--text);
 }
 
@@ -189,9 +188,23 @@ i {
 }
 
 .download-list {
+    display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .download-list li {
-    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.download-list img {
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.download-list a {
+    align-self: center;
 }
