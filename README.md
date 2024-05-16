@@ -11,9 +11,6 @@ If you're interested in working with me or have a question, please feel free to 
 
 ## 🤝 Let's Connect
 [![Sam's LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/samhillier/)
-[![Sam's Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/Zyphaex/)
-[![Sam's Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/Zyphaex/)
-[![Sam's Discord](https://skillicons.dev/icons?i=discord)](https://discord.com/invite/XfZHVfPr9C/)
 
 ## 💻 Languages
 [![Languages](https://skillicons.dev/icons?i=js,ts,py,java,cpp,html,css)](#)
