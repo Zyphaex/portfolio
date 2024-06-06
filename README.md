@@ -1,6 +1,6 @@
 # Hi, I'm Sam :wave:
 
-I'm a `Computer Science` graduate from Nottingham Trent University, `Web Developer` and `Software Engineer` with experience overseeing tech-based startups.
+I'm a `Computer Science` graduate from Nottingham Trent University, a `Full-Stack` `Web Developer` and `Software Engineer` with a proven record of academic and project success.
 
 If you're interested in working with me or have a question, please feel free to get in touch.
 
@@ -10,10 +10,16 @@ If you're interested in working with me or have a question, please feel free to 
 [![GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/Zyphaex)
 
 ## 🤝 Let's Connect
-[![Sam's LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/samhillier/)
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/samhillier/)
+[![X](https://skillicons.dev/icons?i=twitter)](https://x.com/Zyphaex/)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/Zyphaex/)
+[![Discord](https://skillicons.dev/icons?i=discord)](https://discord.com/invite/XfZHVfPr9C)
 
 ## 💻 Languages
-[![Languages](https://skillicons.dev/icons?i=js,ts,py,java,cpp,html,css)](#)
+[![Languages](https://skillicons.dev/icons?i=js,ts,py,java,cpp,html,css,scss)](#)
+
+## 🏗️ Frameworks/Tools
+[![Frameworks/Tools](https://skillicons.dev/icons?i=react,nodejs,aws,docker,express,git,postgresql,mongodb,mysql,azure,firebase,django,dynamodb,figma)](#)
 
 ## 🏆 GitHub Stats
 
