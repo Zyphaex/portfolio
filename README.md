@@ -19,7 +19,7 @@ If you're interested in working with me or have a question, please feel free to 
 [![Languages](https://skillicons.dev/icons?i=js,ts,py,java,cpp,html,css,scss)](#)
 
 ## 🏗️ Frameworks/Tools
-[![Frameworks/Tools](https://skillicons.dev/icons?i=react,nodejs,aws,docker,express,git,postgresql,mongodb,mysql,azure,firebase,django,dynamodb,figma)](#)
+[![Frameworks/Tools](https://skillicons.dev/icons?i=react,nodejs,aws,docker,express,git,postgresql,mongodb,mysql,azure,firebase,django,dynamodb,tailwind,figma)](#)
 
 ## 🏆 GitHub Stats
 
