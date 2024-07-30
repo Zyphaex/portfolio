@@ -32,7 +32,7 @@ function App() {
             feel free to get in touch.
           </p>
           <img
-            src="./src/assets/images/sam-hillier.jpg"
+            src="https://raw.githubusercontent.com/Zyphaex/portfolio/main/src/assets/images/sam-hillier.jpg"
             width="200"
             height="200"
             alt="Sam Hillier"
