@@ -25,6 +25,22 @@ function App() {
             feel free to get in touch.
           </p>
         </section>
+        <section>
+          <h3>Projects</h3>
+          <h4>CS2.TEAM</h4>
+          <a href="https://cs2.team" target="_blank">
+            Website
+          </a>
+          <p>
+            Find esports teams and players on CS2.TEAM. Level up your gaming
+            identity with our professional esports networking platform.
+          </p>
+          <h4>ENJindex</h4>
+          <a href="https://enjindex.com" target="_blank">
+            Website
+          </a>
+          <p>ENJindex, explore NFTs and crypto collectibles.</p>
+        </section>
       </main>
       <footer>
         <section>
