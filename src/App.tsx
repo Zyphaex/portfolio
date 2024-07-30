@@ -3,43 +3,62 @@ import "./App.css";
 function App() {
   return (
     <>
-      <main>
+      <header>
         <h1>Sam Hillier</h1>
         <h2>Full Stack Developer</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>C++</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
+      </header>
+      <main>
         <section>
+          <h3>Skills</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </section>
+        <section>
+          <h3>About Me</h3>
           <p>
             I'm a Computer Science graduate from Nottingham Trent University, a
             Full-Stack Web Developer and Software Engineer with a proven record
             of academic and project success.
-            <br />
+          </p>
+          <p>
             If you're interested in working with me or have a question, please
             feel free to get in touch.
           </p>
         </section>
         <section>
           <h3>Projects</h3>
-          <h4>CS2.TEAM</h4>
-          <a href="https://cs2.team" target="_blank">
-            Website
-          </a>
-          <p>
-            Find esports teams and players on CS2.TEAM. Level up your gaming
-            identity with our professional esports networking platform.
-          </p>
-          <h4>ENJindex</h4>
-          <a href="https://enjindex.com" target="_blank">
-            Website
-          </a>
-          <p>ENJindex, explore NFTs and crypto collectibles.</p>
+          <article>
+            <a
+              href="https://cs2.team"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit CS2.TEAM website"
+            >
+              <h4>CS2.TEAM</h4>
+            </a>
+            <p>
+              Find esports teams and players on CS2.TEAM. Level up your gaming
+              identity with our professional esports networking platform.
+            </p>
+          </article>
+          <article>
+            <a
+              href="https://enjindex.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit ENJindex website"
+            >
+              <h4>ENJindex</h4>
+            </a>
+            <p>ENJindex, explore NFTs and crypto collectibles.</p>
+          </article>
         </section>
       </main>
       <footer>
@@ -47,24 +66,32 @@ function App() {
           <a
             href="https://github.com/Zyphaex"
             target="_blank"
-            aria-label="GitHub"
+            rel="noopener noreferrer"
+            aria-label="GitHub profile"
           >
             GitHub
           </a>
           <a
             href="https://linkedin.com/in/samhillier"
             target="_blank"
-            aria-label="LinkedIn"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
           >
             LinkedIn
           </a>
-          <a href="https://x.com/Zyphaex" target="_blank" aria-label="X">
+          <a
+            href="https://x.com/Zyphaex"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X profile"
+          >
             X
           </a>
           <a
             href="https://instagram.com/Zyphaex"
             target="_blank"
-            aria-label="Instagram"
+            rel="noopener noreferrer"
+            aria-label="Instagram profile"
           >
             Instagram
           </a>
@@ -80,10 +107,20 @@ function App() {
           ></iframe>
         </section>
         <section>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
+          <nav>
+            <a href="#" aria-label="About page">
+              About
+            </a>
+            <a href="#" aria-label="Contact page">
+              Contact
+            </a>
+            <a href="#" aria-label="Terms and Conditions page">
+              Terms & Conditions
+            </a>
+            <a href="#" aria-label="Privacy Policy page">
+              Privacy Policy
+            </a>
+          </nav>
           <p>© 2024 Sam Hillier. All Rights Reserved.</p>
         </section>
       </footer>
